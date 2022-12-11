@@ -1,0 +1,579 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navBar {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    box-shadow: 2px 1px 2px #eee;
+    position: fixed;
+    z-index: 1;
+    background: #FFFFFF;
+}
+
+.navBarLeft {
+    width: 45%;
+}
+
+.logoSize {
+    width: 160px;
+    height: 24px;
+    position: relative;
+    left: 100px;
+    top: 32px;
+}
+
+.navBarRight {
+    width: 55%;
+    display: flex;
+    margin-left: 6px;
+}
+
+.navCard {
+    height: 80px;
+    width: 100px;
+    margin-left: -18px;
+    margin-top: 4px;
+    padding-left: 46px;
+    position: relative;
+    left: 13%;
+
+}
+
+.navBarAnchor {
+    position: relative;
+    font-size: larger;
+    color: #666666;
+    text-decoration: none;
+    left: 13px;
+    top: 28px;
+}
+.dropDown{
+    margin-left: 107px;
+}
+#dpClick{
+    display: none;
+}
+.dropDownMenu{
+    height: 460px;
+    width: 940px;
+    position: relative;
+    right: 910px;
+    top: 79%;
+    background: white;
+    border-radius: 1px;
+    box-shadow: 0px 1px 10px 0px rgb(0 0 0 / 10%);
+}
+.dropDownTop{
+    display: flex;
+    text-align: center;
+}
+.dropDownTopBox{
+    width: 210px;
+    height: 180px;
+    margin-top: 30px;
+}
+.dropDownTopBox1{
+   position: relative;
+   margin-left: 5%;
+   width: 210px;
+   height: 180px;
+   margin-top: 30px;
+}
+.dropDownBottom{
+    display: flex;
+    text-align: start;
+    background: #fafafb;
+    height: 250px;
+
+  
+}
+.dropDownBottomBox1{
+   height: 250px;
+   width: 250px;
+   margin-left: 45px;
+
+}
+.dropDownBottomBox2{
+    height: 250px;
+    width: 250px;
+    margin-left: 2px;
+ }
+ .dropDownBottomBox3{
+    height: 250px;
+    width: 336px;
+ }
+ .dropDownliHead{
+    list-style: none;
+    font-size: x-large;
+    margin-top: 30px;
+    margin-left: -40px;
+ }
+ .dropDownliContent{
+    list-style: none;
+    color: #666666;
+    font-size: larger;
+    margin-top: 12px;
+    margin-left: -40px;
+ }
+ .subHead{
+    color: #9B9B9B;
+    font-weight: 100;
+    font-size: inherit;
+    margin-top: 0;
+ }
+ .ddHead{
+    color: #666666;
+    font-weight: 100;
+    margin-top: 5px;
+ }
+ .topAlign{
+    margin-top: 30px;
+ }
+ .varsityImg{
+    position: relative;
+    top: 30px;
+    right: 40px;
+    height: 46px;
+}
+.tqnaImg{
+    position: relative;
+    top: -89px;
+    left: 122px;
+    height: 46px;
+}
+.variStyle{
+    margin-top: 16%;
+}
+.trStyle{
+    margin-left: 95px;
+    margin-top: -25%;
+}
+.imgSize {
+    position: relative;
+    width: 520px;
+    height: 320px;
+    left: 33%;
+    top: 0%;
+}
+
+.investTagSize {
+    color: #424242;
+    text-align: center;
+    font-size: 66px;
+    font-weight: 100;
+    position: relative;
+    top: 25px;
+}
+
+.investTagLineSize {
+    color: #424242;
+    text-align: center;
+    font-size: 1.80rem;
+    font-weight: 100;
+
+}
+
+.buttonStyle {
+    position: relative;
+    left: 42%;
+    background-color: #387ED1;
+    color: white;
+    height: 60px;
+    width: 250px;
+    border-block-color: none;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.rightNavBarSpacing {
+    margin-left: 100px;
+    padding-left: 100px;
+}
+
+.forSpacing {
+    height: 160px;
+}
+
+.signUpPromotion {
+    height: 550px;
+    width: 88%;
+    margin-left: 6%;
+}
+
+.aboutInvest {
+    height: 750px;
+}
+
+.aboutStock {
+    height: 700px;
+}
+
+.stockImageAndDescription {
+    position: relative;
+    top: 100px;
+    height: 550px;
+    width: 88%;
+    margin-left: 6%;
+    display: flex;
+
+}
+
+.stockImage {
+    height: 450px;
+    width: 40%;
+
+}
+
+.StockImageSize {
+    width: 95%;
+    height: 440px;
+}
+
+.stockDescripton {
+    height: 450px;
+    width: 47%;
+    position: relative;
+    left: 192px;
+    font-size: 1.8rem;
+    color: #424242;
+}
+
+.paraSize {
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.headSize {
+    margin-top: 0;
+    font-weight: 100;
+}
+
+.ul1 {
+    height: 200px;
+    width: 49%;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 45px;
+
+}
+
+.ul2 {
+
+    height: 200px;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    bottom: 216px;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 45px;
+    top: -222px;
+}
+
+.pressLogoSize {
+    position: relative;
+    bottom: 205px;
+    left: -18px;
+}
+
+.aboutZerodha {
+    height: 1000px;
+    text-align: center;
+}
+
+.zerodhaUniverse {
+    height: 800px;
+    width: 88%;
+    margin-left: 6%;
+}
+
+.zerodhaHeading {
+    font-size: 2.80rem;
+    line-height: 1.5;
+    color: #424242;
+    font-weight: 500;
+}
+
+.zerodhaParagraph {
+    font-size: 1.80rem;
+    font-weight: 100;
+    color: #424242;
+    line-height: 45px;
+    margin-top: -12px;
+}
+
+.projectImage {
+    height: 550px;
+}
+
+.ecoSystemStyle {
+    width: 100%;
+}
+
+.exploreProduct {
+    position: relative;
+    top: 50px;
+    font-size: 22px;
+    color: #387ed1;
+    text-decoration: none;
+}
+
+.aboutPricing {
+    height: 450px;
+}
+
+.pricing {
+    height: 330px;
+    width: 88%;
+    margin-left: 6%;
+    display: flex;
+}
+
+.pricingPara1 {
+    height: 300px;
+    width: 40%;
+    position: relative;
+    left: 40px;
+    font-size: 1.80rem;
+    line-height: 1.5;
+    color: #424242;
+}
+
+.pricingPara2 {
+    height: 300px;
+    width: 50%;
+    position: relative;
+    left: 140px;
+    display: flex;
+    text-align: center;
+    top: 35px;
+}
+
+.pricingParaHead {
+    font-weight: 400;
+}
+
+.pricingParagraph {
+    font-weight: 100;
+    font-size: 1.30rem;
+    line-height: 1.8;
+    color: #424242;
+}
+
+.anchorParaSize {
+    margin-top: -8px;
+}
+
+.seeMoreAnchor {
+    font-size: 22px;
+    color: #387ed1;
+    text-decoration: none;
+}
+
+.pricingBox1 {
+    height: 240px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-right: none;
+}
+
+.pricingBox2 {
+    height: 240px;
+    width: 50%;
+    border: 1px solid #ccc;
+}
+
+.priceSize {
+    font-size: 55px;
+    color: #424242;
+    font-weight: 400;
+}
+
+.boxParagraph {
+    font-weight: 100;
+    font-size: 1.4rem;
+    color: #424242;
+    line-height: 1.4;
+}
+
+.aboutEducation {
+    height: 500px;
+}
+
+.edImageAndDes {
+    height: 430px;
+    width: 88%;
+    margin-left: 6%;
+    display: flex;
+
+}
+
+.edImage {
+    width: 40%;
+    height: 402px;
+}
+
+.edDes {
+    width: 44%;
+    height: 328px;
+    position: relative;
+    left: 16%;
+    font-size: 1.80rem;
+    line-height: 1.5;
+    color: #424242;
+}
+
+.edImageStyle {
+    width: 550px;
+    height: 390px;
+    margin-top: 50px;
+}
+
+.edHead {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.openAccount {
+    height: 400px;
+}
+
+.account {
+    height: 300px;
+    width: 70%;
+    margin-left: 15%;
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+
+.lastPromo {
+    bottom: 61px;
+}
+
+.footer {
+    height: 1000px;
+    background: #FAFAFB;
+    outline: 1px solid #cce7f3;
+}
+
+.footerContent {
+    height: 900px;
+    width: 88%;
+    margin-left: 6%;
+    position: relative;
+    top: 50px;
+    display: flex;
+}
+
+.footerBox {
+    height: 40%;
+    width: 25%;
+}
+
+.footerBox1 {
+    height: 40%;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.footerLogo {
+    width: 200px;
+    height: 25px;
+}
+
+.footerPara {
+    font-weight: 100;
+    color: #424242;
+    font-size: 18px;
+}
+
+.socialLogo {
+    display: flex;
+    list-style: none;
+    height: 35px;
+}
+
+.socialLogoLi {
+    position: relative;
+    left: -38px;
+}
+
+.socialLogoAnchor {
+    position: relative;
+    left: -5px;
+    top: 2px;
+    padding-left: 2px;
+    font-size: 28px;
+}
+
+.socialLogoAnchor1 {
+    position: relative;
+    left: 0px;
+    top: 2px;
+    padding-left: 36px;
+    font-size: 28px;
+}
+
+.logoClr {
+    color: #424242;
+}
+
+.listHeading {
+    font-weight: 500;
+    list-style: none;
+    margin-top: -16px;
+    height: 40px;
+    font-size: x-large;
+}
+
+.footerliStyle {
+    list-style: none;
+    text-decoration: none;
+    color: #666666;
+    font-weight: 500;
+    height: 40px;
+    font-size: larger;
+    position: relative;
+    top: 6px;
+}
+
+.ulStyle {
+    margin-left: -40px;
+}
+
+.footerBigPara {
+    width: 88%;
+    height: 500px;
+    margin-left: 6%;
+    position: relative;
+    bottom: 47%;
+    list-style: none;
+    color: #9b9b9b;
+    font-size: 0.90rem;
+    line-height: 1.9;
+}
+
+.footerA {
+    text-decoration: none;
+    color: #387ed1;
+}
+
+.lastUl {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.lastLi {
+    text-decoration: none;
+    text-align: center;
+    color: #9b9b9b;
+    margin-left: 40px;
+    font-size: 1rem;
+}
